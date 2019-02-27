@@ -1,0 +1,27 @@
+Start
+
+int x[10]={12,23,34,45,56,56,78,89,90,12}
+int num
+int j
+int index[5]
+
+print "daftar angka : 12,23,34,45,56,78,89,90"
+print "Masukkan angka yang dicari: "
+input num
+
+j=0
+for(int i=0; i<10;i++){
+    if (x[i]==num){
+			index[j]=i;
+			j++;
+	          }
+	}
+
+print "jumlah angka sebanyak : "
+print j
+print "Data terdapat pada indeks ke: "
+	for (int i=0; i < j; i++){
+		print index[i]+1;
+	}
+
+End
